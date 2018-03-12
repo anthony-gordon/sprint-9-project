@@ -1,0 +1,155 @@
+
+input[type="button"] {
+  margin: 0px;
+  border: 0px;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+
+.column {
+  width: 5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.halfColumn {
+  width: 2.5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.row{
+  max-width: 500px;
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+}
+
+#sel {
+  display: none;
+}
+
+.blue {
+  background-color: blue;
+  height: 120px;
+  display:
+}
+
+.red {
+  background-color: red;
+  height: 120px;
+}
+
+.black {
+  background-color: black;
+  height: 120px;
+}
+
+.black2 {
+  background-color: black;
+  height: 10px;
+}
+
+.black3 {
+  background-color: black;
+  height: 70px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 120px;
+}
+
+.white {
+  background-color: white;
+  height: 120px;
+}
+
+.white2 {
+  background-color: white;
+  height: 10px;
+}
+
+.white3 {
+  background-color: white;
+  height: 70px;
+}
+
+.fullRow {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.halfColumn2 {
+  width: 2.5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.thirtySevenPointFiveColumn {
+  width: 37.5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.thirtySevenPointFiveColumn2 {
+  width: 37.5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.sixtyTwoPointFiveColumn {
+  width: 62.5%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.sixtyColumn {
+  width: 60%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
+
+.fortyEightPointSevenFiveColumn {
+  width: 48.75%;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  display: inline-block;
+  padding: 0;
+  float: left;
+}
