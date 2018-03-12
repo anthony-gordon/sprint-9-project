@@ -8,121 +8,116 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="white">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="black">
-    </div>
-    <div class="column">
-      <input type="button" class="red">
-    </div>
-    <div class="column">
-      <input type="button" class="red">
-    </div>
-    <div class="column">
-      <input type="button" class="red">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="red">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="black">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="column">
-      <input type="button" class="white">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="white">
-    </div>
-    <div class="halfColumn">
-      <input type="button" class="black">
-    </div>
-    <div class="column">
-      <input type="button" class="yellow">
-    </div>
-    <div class="column">
-      <input type="button" class="yellow">
-    </div>
-    <div class="column">
-      <input type="button" class="yellow">
-    </div>
-    <div class="column">
-      <input type="button" class="yellow">
-    </div>
-  </div>
-  <div class="row">
-    <div class="thirtySevenPointFiveColumn">
-      <input type="button" class="white2">
-    </div>
-    <div class="sixtyTwoPointFiveColumn">
-      <input type="button" class="black2">
-    </div>
-  </div>
-  <div class="row">
-    <div class="thirtySevenPointFiveColumn2">
-      <input type="button" class="white3">
-    </div>
-    <div class="halfColumn2">
-      <input type="button" class="black3">
-    </div>
-    <div class="sixtyColumn">
-      <input type="button" class="white3">
-    </div>
-  </div>
-  <div class="row">
-    <div class="fullRow">
-      <input type="button" class="black2">
-    </div>
-  </div>
-  <div class="row">
-    <div class="fortyEightPointSevenFiveColumn">
-      <input type="button" id="blue" class="yellow" onclick="showMenu()">
-      <div id="sel">
-          <button id="btnBlue" onclick="changeColorToBlue()">Blue</button>
-          <button id="btnWhite">White</button>
-          <button id="btnYellow">Yellow</button>
-          <button id="btnRed" onclick="changeColorToRed()">Red</button>
+<div class="frame">
+  <div class="work">
+    <div class="row">
+      <div class="thirtySevenPointFiveColumn">
+        <input type="button" class="white" class="topleft" id="topleft" onclick="showMenuFour()">
+        <div id="selFour">
+            <button onclick="changeColorToBlueFour()">Blue</button>
+            <button onclick="changeColorToWhiteFour()">White</button>
+            <button onclick="changeColorToYellowFour()">Yellow</button>
+            <button onclick="changeColorToRedFour()">Red</button>
+        </div>
       </div>
+      <div class="halfColumn">
+        <input type="button" class="black">
+      </div>
+      <div class="seventeenPointFiveColumn">
+        <input type="button" class="red" id="topThree" onclick="showMenuFive()">
+        <div id="selFive">
+            <button onclick="changeColorToBlueFive()">Blue</button>
+            <button onclick="changeColorToWhiteFive()">White</button>
+            <button onclick="changeColorToYellowFive()">Yellow</button>
+            <button onclick="changeColorToRedFive()">Red</button>
+        </div>
+      </div>
+      <div class="halfColumn">
+        <input type="button" class="black">
+      </div>
+      <div class="seventeenPointFiveColumn">
+        <input type="button" class="white" id="topFour" onclick="showMenuSix()">
+        <div id="selSix">
+            <button onclick="changeColorToBlueSix()">Blue</button>
+            <button onclick="changeColorToWhiteSix()">White</button>
+            <button onclick="changeColorToYellowSix()">Yellow</button>
+            <button onclick="changeColorToRedSix()">Red</button>
+        </div>
+      </div>
+      <div class="halfColumn">
+        <input type="button" class="black">
+      </div>
+      <div class="twentycolumn">
+        <input type="button" class="yellow" id="topFive" onclick="showMenuSeven()">
+        <div id="selSeven">
+            <button onclick="changeColorToBlueSeven()">Blue</button>
+            <button onclick="changeColorToWhiteSeven()">White</button>
+            <button onclick="changeColorToYellowSeven()">Yellow</button>
+            <button onclick="changeColorToRedSeven()">Red</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="thirtySevenPointFiveColumn">
+        <input type="button" class="white7" class="topleft" id="topleftTwo">
+      </div>
+      <div class="sixtyTwoPointFiveColumn">
+        <input type="button" class="black2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="thirtySevenPointFiveColumn" >
+        <input type="button" class="white3" id="topleftThree">
+      </div>
+      <div class="halfColumn2">
+        <input type="button" class="black3">
+      </div>
+      <div class="sixtyColumn">
+        <input type="button" id="middle" class="white4" onclick="showMenuThree()">
+        <div id="selThree">
+            <button onclick="changeColorToBlueThree()">Blue</button>
+            <button onclick="changeColorToWhiteThree()">White</button>
+            <button onclick="changeColorToYellowThree()">Yellow</button>
+            <button onclick="changeColorToRedThree()">Red</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="fullRow">
+        <input type="button" class="black2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="fortyEightPointSevenFiveColumn">
+        <input type="button" id="blue" class="yellow" onclick="showMenu()">
+        <div id="sel">
+            <button onclick="changeColorToBlue()">Blue</button>
+            <button onclick="changeColorToWhite()">White</button>
+            <button onclick="changeColorToYellow()">Yellow</button>
+            <button onclick="changeColorToRed()">Red</button>
+        </div>
 
-    </div>
-    <div class="halfColumn2">
-      <input type="button" class="black">
-    </div>
-    <div class="fortyEightPointSevenFiveColumn">
-      <input type="button" class="white">
+      </div>
+      <div class="halfColumn2">
+        <input type="button" class="black">
+      </div>
+      <div class="fortyEightPointSevenFiveColumn">
+        <input type="button" id="bottomRight" class="white" onclick="showMenuTwo()">
+        <div id="selTwo">
+            <button onclick="changeColorToBlueTwo()">Blue</button>
+            <button onclick="changeColorToWhiteTwo()">White</button>
+            <button onclick="changeColorToYellowTwo()">Yellow</button>
+            <button onclick="changeColorToRedTwo()">Red</button>
+        </div>
+      </div>
     </div>
   </div>
 
-
+</div>
+<br>
+<div class="label">
+  <p>Create your own masterpiece in the style of Piet Mondrian. Click inside any square to change it's colour.</p>
+</div>
 
 </body>
 
